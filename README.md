@@ -110,3 +110,11 @@ Output: New State Object
 # Exercise 5: Changing the state directly in an action
 
 1) We should never change the state directly when performing an action
+
+# Exercise 6: Migrating to Redux-toolkit
+
+1) We have installed @reduxjs/toolkit
+2) We don't need the "redux" package anymore as it is included in the toolkit
+3) We use the createSlice method in the CounterReducer
+4) We now use the ConfigureStore instead of CreateStore function
+5) We import the actions directly in the component

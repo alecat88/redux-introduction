@@ -100,4 +100,9 @@ Output: New State Object
 # Exercise 3: Adding a payload
 
 1) We've added a new action that takes care of the action payload
-1) We've added a new button in the "Counter" component to dispatch that action
+2) We've added a new button in the "Counter" component to dispatch that action
+
+# Exercise 4: Taking care of the previous state when multiple values exist
+
+1) We're adding a new value to the state
+2) All the actions will now need to return a state that takes into consideration the entire state (other values too)

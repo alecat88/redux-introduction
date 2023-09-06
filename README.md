@@ -106,3 +106,7 @@ Output: New State Object
 
 1) We're adding a new value to the state
 2) All the actions will now need to return a state that takes into consideration the entire state (other values too)
+
+# Exercise 5: Changing the state directly in an action
+
+1) We should never change the state directly when performing an action

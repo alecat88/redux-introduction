@@ -97,3 +97,7 @@ Output: New State Object
 
 ```npm start```
 
+# Exercise 3: Adding a payload
+
+1) We've added a new action that takes care of the action payload
+1) We've added a new button in the "Counter" component to dispatch that action

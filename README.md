@@ -84,3 +84,16 @@ Output: New State Object
 ```node exercise1/src/1.js```
 
 ```node exercise1/src/2.js```
+
+# Exercise 2: Use Redux with react-redux
+
+1) We've separated the reducer in its own file
+2) Exporting the store from the src/store/index.js file
+3) Importing the store in the src/index.js file
+4) Adding the store to the Provider Component, which is used as parent component of the entire app
+4) Using the custom hooks from react-redux in the Counter component
+
+```cd exercise2```
+
+```npm start```
+
